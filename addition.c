@@ -1,17 +1,3 @@
-/*******************************************************************************************************************************************************************
-*Title			: Addition
-*Description		: This function performs addition of two given large numbers and store the result in the resultant list.
-*Prototype		: int addition(Dlist **head1, Dlist **tail1, Dlist **head2, Dlist **tail2, Dlist **headR, Dlist **tailR, Data *data);
-*Input Parameters	: head1: Pointer to the first node of the first double linked list.
-			: tail1: Pointer to the last node of the first double linked list.
-			: head2: Pointer to the first node of the second double linked list.
-			: tail2: Pointer to the last node of the second double linked list.
-			: headR: Pointer to the first node of the resultant double linked list.
-			: tailR: Pointer to the last node of the resultant double linked list.
-			: data : Pointer to the data structure containing the operands.
-*Output			: Status (SUCCESS / FAILURE)
-*******************************************************************************************************************************************************************/
-
 #include "apc.h"
 #include "common.h"
 
@@ -67,4 +53,5 @@ int addition(Dlist **head1, Dlist **tail1, Dlist **head2, Dlist **tail2, Dlist *
 		insert_first(headR, tailR, 45); // insert -ve sign
 	}
 	return SUCCESS;
+
 }
