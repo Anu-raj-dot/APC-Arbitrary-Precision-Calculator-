@@ -1,17 +1,3 @@
-/*******************************************************************************************************************************************************************
-*Title			: Division
-*Description		: This function performs division of two given large numbers and store the result in the resultant list.
-*Prototype		: int division(Dlist **head1, Dlist **tail1, Dlist **head2, Dlist **tail2, Dlist **headR, Dlist **tailR, Data *data);
-*Input Parameters	: head1: Pointer to the first node of the first double linked list.
-			: tail1: Pointer to the last node of the first double linked list.
-			: head2: Pointer to the first node of the second double linked list.
-			: tail2: Pointer to the last node of the second double linked list.
-			: headR: Pointer to the first node of the resultant double linked list.
-			: tailR: Pointer to the last node of the resultant double linked list.
-			: data: Pointer to the Data structure containing operand sizes and result size.
-*Output			: Status (SUCCESS / FAILURE)
-				: ZERO_ERROR: Division by zero error.
-*******************************************************************************************************************************************************************/
 #include "apc.h"
 #include "common.h"
 
